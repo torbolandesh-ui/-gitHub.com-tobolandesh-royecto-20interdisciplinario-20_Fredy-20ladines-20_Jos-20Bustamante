@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alys Bites | Dulzura Artesanal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Alys Bites</div>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#sostenibilidad">Sostenibilidad</a></li>
+                <li><a href="#pedido" class="btn-nav">Pedir Ahora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sabor casero en cada bocado</h1>
+            <p>Mini donas y galletas artesanales hechas con amor y sin conservantes.</p>
+            <a href="#productos" class="btn-main">Ver Menú</a>
+        </div>
+    </section>
+
+    <section id="productos" class="container">
+        <h2 class="section-title">Nuestras Delicias</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Mini Donas</h3>
+                <p>Suaves, esponjosas y con un aroma irresistible a vainilla y canela.</p>
+                <span class="tag">Artesanal</span>
+            </div>
+            <div class="card">
+                <h3>Galletas de Chispas</h3>
+                <p>Crujientes por fuera, suaves por dentro. Elaboradas con mantequilla pura.</p>
+                <span class="tag">Recién Horneadas</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="proceso" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Calidad Garantizada</h2>
+            <div class="grid">
+                <div class="info-box">
+                    <h4>Ingredientes</h4>
+                    <p>Usamos ingredientes locales: huevos frescos, harina de trigo y mantequilla real.</p>
+                </div>
+                <div class="info-box">
+                    <h4>Higiene</h4>
+                    <p>Contamos con certificado de manipulación de alimentos y estrictas normas de salubridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sostenibilidad" class="container">
+        <h2 class="section-title">Compromiso Alys</h2>
+        <p class="text-center">Cuidamos el planeta produciendo bajo pedido para evitar desperdicios y utilizando empaques biodegradables.</p>
+    </section>
+
+    <section id="pedido" class="container">
+        <div class="order-box">
+            <h2>Haz tu Pedido</h2>
+            <p>Realiza tu pedido y recógelo en el punto acordado.</p>
+            <form id="orderForm">
+                <input type="text" id="name" placeholder="Tu Nombre" required>
+                <select id="product">
+                    <option value="Mini Donas">Mini Donas</option>
+                    <option value="Galletas">Galletas</option>
+                    <option value="Combo Mixto">Combo Mixto</option>
+                </select>
+                <input type="number" id="quantity" placeholder="Cantidad" required>
+                <button type="submit" class="btn-main">Enviar a WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Alys Bites - Registro RUC/RISE en regla. Hecho con amor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
